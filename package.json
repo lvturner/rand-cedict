@@ -1,0 +1,40 @@
+{
+  "name": "rand-cedict",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Lee Turner <lvturner@me.com>",
+  "description": "Sends a notification with a random chinese word",
+  "contributors": [ 
+    {
+      "name": "Lee Turner",
+      "email": "lvturner@me.com"
+    } 
+  ],
+  "bin": {
+    "rand-cedict": "./bin/rand-cedict.js"
+  },
+  "main": "./lib/main.js",
+  "keywords": [
+    "cli",
+    "cedict",
+    "chinese",
+    "english",
+    "dictionary",
+    "cc-cedict",
+    "repl"
+  ],
+  "dependencies" : {
+    "colors"   :  "*",
+    "sqlite3"   :  "*",
+    "node-notifier" : "*"
+  },
+  "analyze": false,
+  "devDependencies": {
+  },
+  "bundledDependencies": [
+  ],  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
